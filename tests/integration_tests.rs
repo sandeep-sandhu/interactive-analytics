@@ -17,14 +17,13 @@ pub fn init_logger() {
     log::set_max_level(log::LevelFilter::Debug);
 }
 
-// TODO: define useful functions for testing
-
+// TODO: define relevant tests
 
 #[test]
 fn first_test() {
     println!("TODO: Implement a test");
 
-    assert_eq(
+    assert_eq!(
         true,
         true,
         "First Test - checking whether true == true"
